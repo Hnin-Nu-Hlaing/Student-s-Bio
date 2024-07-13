@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mytitle {
+    box-shadow: 0px 2px 4px #777;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 20px;
+
+   &:before {
+    content: "";
+    border-left: 1px solid blueviolet;
+    padding-right: 10px ;
+   }
+
+   &::after {
+    content: "Student's Bio";
+    color: blueviolet;
+   }
+}
+
+.myicon {
+    color: blue;
+    border: 1px solid pink;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+}
+
+.aboutme{
+    position: relative;
+    /* border-left: 2px solid green; */
+    border-bottom: 2px solid green;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    /* border-bottom-left-radius: 700px; */
+
+    &:before{
+    }
+    &:after{
+        content: "Hey, I am Hnin Nu, Yangon. I love coding and coding.Now I am coding on HTML,CSS and Javascript. But I am going to build Student's Bio page.";
+        color: blueviolet;
+    }
+}
+.mypen{
+    position: absolute;
+    color: blue;
+    font-size: 22px;
+    left: -10px;
+    top: -4px;
+}
+.myimage{
+    --shape:50% 0%,100% 38%, 82% 100%, 18% 100%, 0% 38%;
+    width: 200px;
+    /* border-radius: 50%; */
+    /* height: 200px; */
+    clip-path: polygon(var(--shape));
+    background-color: #9A8406;
+    /* padding: 30px; */
+    cursor: pointer;
+    margin-left: 25%;
+}
+
+.mycontact {
+    margin: 10px;
+    border: 1px solid #777;
+    padding: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: ;
+    padding: 30px;
+}
+
+.email {
+    color: whitesmoke;
+    /* box-shadow: 0px 1px 2px whitesmoke; */
+    width: 100%;
+    padding: 7px;
+    background-color: #777;
+
+
+}
+
+
+
+
+
+
