@@ -1,6 +1,7 @@
 const img = document.getElementById("mybio");
-img.addEventListener("click", changeShape);
+img.addEventListener("click", changeShape); //functionလုပ်ခိုင်းတာ
 
+// var ပေးပြီး Arrayနဲ့ရေး
 const shapeArr = [
     //Hexagon
     "25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%",
